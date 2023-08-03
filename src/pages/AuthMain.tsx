@@ -32,7 +32,7 @@ const AuthMain: React.FC = () => {
       >
         <div>
           <Logo>HBD</Logo>
-          {isLogin ? <LoginForm /> : <SignupForm />}
+          {isLogin ? <LoginForm /> : <SignupForm setIsLogin={setIsLogin} />}
           <Button
             type="link"
             onClick={isLogin ? handleGoToSignup : handleGoToLogin}
