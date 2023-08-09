@@ -39,6 +39,11 @@
       "email": "asdf",
       "password": "123",
       "id": 8
+    },
+    {
+      "email": "testtest@gmail.com",
+      "password": "1234",
+      "id": 9
     }
   ],
   "boards": [
@@ -93,6 +98,95 @@
     {
       "email": "asdf",
       "contents": "asdfasdf",
+      "isDeleted": false,
+      "id": 9
+    },
+    {
+      "email": "asdfasdf@asdf.com",
+      "contents": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴ",
+      "isDeleted": true,
+      "id": 10
+    },
+    {
+      "email": "asdfasdf@asdf.com",
+      "contents": "asdfasdf",
+      "isDeleted": true,
+      "id": 11
+    },
+    {
+      "email": "asdfasdf@asdf.com",
+      "contents": "ㅁㄴㅇㄹㅁㄴㅇㄹ",
+      "isDeleted": true,
+      "id": 12
+    },
+    {
+      "email": "asdfasdf@asdf.com",
+      "contents": "ㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹ",
+      "isDeleted": false,
+      "id": 13
+    }
+  ],
+  "comments": [
+    {
+      "boardId": "13",
+      "comments": "laskjdflkasdjf",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 1
+    },
+    {
+      "boardId": "13",
+      "comments": "",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 2
+    },
+    {
+      "boardId": "13",
+      "comments": "asdfasdfasdfasdfas",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 3
+    },
+    {
+      "boardId": "13",
+      "comments": "",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 4
+    },
+    {
+      "boardId": "13",
+      "comments": "asdfasdfasdfas",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 5
+    },
+    {
+      "boardId": "13",
+      "comments": "asdfasdlfkajsdlkfjaasdf",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 6
+    },
+    {
+      "boardId": "13",
+      "comments": "asdfasdfasdfasf",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 7
+    },
+    {
+      "boardId": "4",
+      "comments": "asdfasdfasdf",
+      "email": "asdfasdf@asdf.com",
+      "isDeleted": false,
+      "id": 8
+    },
+    {
+      "boardId": "4",
+      "comments": "asdfasdfasdf",
+      "email": "asdfasdf@asdf.com",
       "isDeleted": false,
       "id": 9
     }
